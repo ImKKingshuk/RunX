@@ -2,7 +2,8 @@
 
 use std::env;
 use std::path::PathBuf;
-use runx::{check, run, Configs};
+use runx::{check, run };
+use runx::CONFIGS;
 
 fn main() {
     let mut current = env::current_dir().unwrap();
